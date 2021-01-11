@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+html,
+body {
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+.title {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.navigation {
+  background-color: orange;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.navigation__link {
+  color: white;
+  margin-right: 5px;
+}
+
+.navigation__link:last-child {
+  margin-right: 0;
+}
+
+main {
+  background-color: green;
+  padding: 10px;
+}
+
+article {
+  background-color: blue;
+  padding: 20px 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+.trilogy-list,
+.movie-list {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.trilogy-list__item,
+.movie-list__item {
+  margin-bottom: 5px;
+}
+
+.trilogy-list__item:last-child,
+.movie-list__item:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: violet;
+  text-align: center;
+  font-size: 32px;
+  padding: 5px 0;
+  font-weight: bold;
+}
