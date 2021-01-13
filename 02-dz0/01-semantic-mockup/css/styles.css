@@ -39,14 +39,15 @@ main {
   padding: 10px;
 }
 
-article {
+.movie,
+.trilogy {
   background-color: blue;
   padding: 20px 10px;
   color: white;
   margin-bottom: 10px;
 }
 
-article:last-child {
+.movie {
   margin-bottom: 0;
 }
 
