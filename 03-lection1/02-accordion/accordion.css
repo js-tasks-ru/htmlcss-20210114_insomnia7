@@ -1,1 +1,51 @@
 /* Стилизация аккордеона */
+
+summary:focus {
+  outline: 0;
+}
+
+.container__accordion {
+  margin-bottom: 8px;
+}
+
+.container__accordion:last-child {
+  margin-bottom: 0;
+}
+
+.accordion {
+  padding: 24px 32px;
+  border: 1px solid #acb5bd;
+  border-radius: 8px;
+}
+
+.accordion__details {
+  cursor: pointer;
+}
+
+.accordion__details[open] .accordion__summary:before {
+  transform: rotate(180deg);
+}
+
+.accordion__summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__summary:before {
+  content: "\01F431";
+  position: absolute;
+  right: 32px;
+  transition: transform 0.3s ease-in-out;
+  color: #315efb;
+}
+
+.accordion__item {
+  margin-bottom: 8px;
+}
+
+.accordion__item:first-of-type {
+  margin-top: 16px;
+}
+
+.accordion__item:last-child {
+  margin-bottom: 0;
+}
