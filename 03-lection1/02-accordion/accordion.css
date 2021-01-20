@@ -18,12 +18,12 @@ summary:focus {
   border-radius: 8px;
 }
 
-.accordion__details {
-  cursor: pointer;
-}
-
 .accordion__details[open] .accordion__summary:before {
   transform: rotate(180deg);
+}
+
+.accordion__summary {
+  cursor: pointer;
 }
 
 .accordion__summary::-webkit-details-marker {
