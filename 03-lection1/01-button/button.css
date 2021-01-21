@@ -13,7 +13,7 @@
   align-items: center;
   color: #ffffff;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: none;
   box-sizing: border-box;
 }
 
@@ -28,28 +28,24 @@
 
 .button_primary {
   background-color: #4263eb;
-  border-color: #4263eb;
 }
 
 .button_primary:hover {
   background-color: #2342c0;
-  border-color: #2342c0;
 }
 
 .button_secondary {
   background-color: #7048e8;
-  border-color: #7048e8;
 }
 
 .button_secondary:hover {
   background-color: #5028c6;
-  border-color: #5028c6;
 }
 
 .button_alternate {
   background-color: #ffffff;
-  border-color: #acb5bd;
   color: #495057;
+  border: 1px solid #acb5bd;
 }
 
 .button_alternate:hover {
