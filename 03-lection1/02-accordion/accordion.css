@@ -1,9 +1,5 @@
 /* Стилизация аккордеона */
 
-summary:focus {
-  outline: 0;
-}
-
 .container__accordion {
   margin-bottom: 8px;
 }
@@ -24,6 +20,11 @@ summary:focus {
 
 .accordion__summary {
   cursor: pointer;
+  position: relative;
+}
+
+.accordion__summary:focus {
+  outline: 0;
 }
 
 .accordion__summary::-webkit-details-marker {
@@ -33,9 +34,8 @@ summary:focus {
 .accordion__summary:before {
   content: "\01F431";
   position: absolute;
-  right: 32px;
+  right: 0;
   transition: transform 0.3s ease-in-out;
-  color: #315efb;
 }
 
 .accordion__item {
