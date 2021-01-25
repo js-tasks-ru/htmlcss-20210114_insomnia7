@@ -33,6 +33,11 @@
   flex-grow: 1;
   background-color: var(--color-primary);
   margin: 0 1px;
+  cursor: pointer;
+}
+
+.chart__item:hover {
+  transform: scaleY(1.1) translateY(-5%);
 }
 
 .chart__item:nth-child(5n + 1) {
