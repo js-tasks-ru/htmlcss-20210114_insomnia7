@@ -1,9 +1,19 @@
+:root {
+  --margin-card: 30px;
+}
+
 .main-page {
-  color: #212429;
+  color: var(--color-font-main-black);
+  background-color: var(--color-background-white);
+}
+
+.main-page__box {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .main-page__header {
-  padding: 96px 160px;
+  padding: 96px 0;
   font-weight: 500;
   font-size: 50px;
 }
@@ -11,6 +21,7 @@
 .main-page__content {
   height: 1036px;
   background: #f9fafc;
+  padding-top: 67px;
 }
 
 .main-page__footer {
@@ -28,4 +39,22 @@
   font-size: 16px;
   max-width: 640px;
   margin: 0 auto;
+}
+
+.main-page__card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-page__card {
+  height: 367px;
+  margin-right: var(--margin-card);
+  margin-bottom: var(--margin-card);
+  border-radius: var(--border-radius-default);
+  background-color: var(--color-background-white);
+  flex-basis: calc((100% - 2 * var(--margin-card)) / 3);
+}
+
+.main-page__card:nth-child(3n) {
+  margin-right: 0;
 }

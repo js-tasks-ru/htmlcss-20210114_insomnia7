@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/variables.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./accordion.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="accordion container__accordion">
+        <details class="accordion__details">
+          <summary class="accordion__summary">Accordion item</summary>
 
-        <div class="container"> 
-            
-            <div class='accordion container__accordion'>
+          <div class="accordion__item">Acc1 Item 1</div>
 
-            <details class='accordion__details'>
-                <summary class="accordion__summary">
-                    Accordion item
-                </summary>
-                
-                <div class="accordion__item">Acc1 Item 1</div>
+          <div class="accordion__item">Acc1 Item 2</div>
+        </details>
+      </div>
 
-                <div class="accordion__item">Acc1 Item 2</div>
-            </details>
-        </div>
+      <div class="accordion container__accordion">
+        <details class="accordion__details">
+          <summary class="accordion__summary">Accordion item</summary>
 
+          <div class="accordion__item">Acc2 Item 1</div>
 
-        <div class='accordion container__accordion'>
-            <details class='accordion__details'>
+          <div class="accordion__item">Acc2 Item 2</div>
+        </details>
+      </div>
 
-                <summary class="accordion__summary">
-                    Accordion item
-                </summary>
-                
-                <div class="accordion__item">Acc2 Item 1</div>
+      <div class="accordion container__accordion">
+        <details class="accordion__details">
+          <summary class="accordion__summary">Accordion item</summary>
 
-                <div class="accordion__item">Acc2 Item 2</div>
-            </details>
-        </div>
+          <div class="accordion__item">Acc3 Item 1</div>
 
-
-        <div class='accordion container__accordion'>
-            <details class='accordion__details'>
-
-                <summary class="accordion__summary">
-                    Accordion item
-                </summary>
-                
-                <div class="accordion__item">Acc3 Item 1</div>
-
-                <div class="accordion__item">Acc3 Item 2</div>
-            </details>
-        </div>
-    
+          <div class="accordion__item">Acc3 Item 2</div>
+        </details>
+      </div>
     </div>
-     
-    </body>
+  </body>
 </html>

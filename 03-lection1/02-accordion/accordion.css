@@ -11,7 +11,7 @@
 .accordion {
   padding: 24px 32px;
   border: 1px solid #acb5bd;
-  border-radius: 8px;
+  border-radius: var(--border-radius-default);
 }
 
 .accordion__details[open] .accordion__summary:before {
