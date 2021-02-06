@@ -3,8 +3,8 @@
 }
 
 .main-page {
-  color: var(--color-font-main-black);
-  background-color: var(--color-background-white);
+  color: var(--color-font-main);
+  background-color: var(--color-background-main);
 }
 
 .main-page__box {
@@ -51,7 +51,7 @@
   margin-right: var(--margin-card);
   margin-bottom: var(--margin-card);
   border-radius: var(--border-radius-default);
-  background-color: var(--color-background-white);
+  background-color: var(--color-background-main);
   flex-basis: calc((100% - 2 * var(--margin-card)) / 3);
 }
 

@@ -1,11 +1,14 @@
 :root {
   --color-primary: #4263eb;
   --color-secondary: #7048e8;
-  --color-background-white: #ffffff;
-  --color-font-main-black: #212429;
-  --color-gray1: #f8f9fa;
-  --color-gray2: #dde2e5;
-  --color-gray3: #acb5bd;
-  --color-gray4: #495057;
+  --color-background-main: #ffffff;
+  --color-font-main: #212429;
+  --color-accent-lighten3: #f8f9fa;
+  --color-accent-lighten2: #dde2e5;
+  --color-accent-lighten1: #acb5bd;
+  --color-accent: #495057;
   --border-radius-default: 8px;
+  --desktop-width: 1024px;
+  --tablet-width: 786px;
+  --touch-width: 468px;
 }

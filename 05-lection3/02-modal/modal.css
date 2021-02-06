@@ -38,7 +38,7 @@ body {
 .modal__content {
   padding: 30px 40px;
   border-radius: var(--border-radius-default);
-  background-color: var(--color-background-white);
+  background-color: var(--color-background-main);
   position: relative;
   max-width: 428px;
   box-sizing: border-box;
@@ -59,7 +59,6 @@ body {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: url("../../assets/images/x.png") 50% 50% no-repeat;
   cursor: pointer;
   width: 16px;
   height: 16px;

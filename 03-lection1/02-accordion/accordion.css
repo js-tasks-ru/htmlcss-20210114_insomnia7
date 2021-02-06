@@ -14,7 +14,16 @@
   border-radius: var(--border-radius-default);
 }
 
-.accordion__details[open] .accordion__summary:before {
+.accordion__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  right: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.accordion__details[open] .accordion__arrow {
   transform: rotate(180deg);
 }
 
@@ -29,13 +38,6 @@
 
 .accordion__summary::-webkit-details-marker {
   display: none;
-}
-
-.accordion__summary:before {
-  content: "\01F431";
-  position: absolute;
-  right: 0;
-  transition: transform 0.3s ease-in-out;
 }
 
 .accordion__item {

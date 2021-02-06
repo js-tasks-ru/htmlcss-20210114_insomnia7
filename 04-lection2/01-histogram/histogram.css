@@ -1,7 +1,7 @@
 .histogram {
   border-radius: var(--border-radius-default);
   padding: 16px 24px;
-  background-color: var(--color-background-white);
+  background-color: var(--color-background-main);
   border: 1px solid #acb5bd;
 }
 
@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  color: var(--color-font-main-black);
+  color: var(--color-font-main);
   margin-bottom: 6px;
 }
 
@@ -21,41 +21,4 @@
 .histogram__count {
   font-size: 20px;
   margin-bottom: 40px;
-}
-
-.chart {
-  display: flex;
-  height: 50px;
-  align-items: flex-end;
-}
-
-.chart__item {
-  flex-grow: 1;
-  background-color: var(--color-primary);
-  margin: 0 1px;
-  cursor: pointer;
-}
-
-.chart__item:hover {
-  transform: scaleY(1.1) translateY(-5%);
-}
-
-.chart__item:nth-child(5n + 1) {
-  height: 100%;
-}
-
-.chart__item:nth-child(5n + 2) {
-  height: 50%;
-}
-
-.chart__item:nth-child(5n + 3) {
-  height: 75%;
-}
-
-.chart__item:nth-child(5n + 4) {
-  height: 35%;
-}
-
-.chart__item:nth-child(5n + 5) {
-  height: 60%;
 }

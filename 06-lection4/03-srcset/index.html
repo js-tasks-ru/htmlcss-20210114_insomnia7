@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./srcset.css">
-    </head>
-    <body>
+  <head>
+    <title>Scrset</title>
+    <link rel="stylesheet" href="../../assets/css/variables.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./srcset.css" />
+    <meta name="viewport" content="width='device-width',  initial-scale=1" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+  <body>
+    <div class="container separator">
+      <img
+        src="./public/forest_400.jpg"
+        srcset="./public/forest_400.jpg 1x, ./public/forest_768.jpg 2x"
+        class="container__image"
+        alt=""
+      />
+    </div>
 
-    </body>
+    <div class="container">
+      <picture>
+        <source
+          srcset="./public/forest_400.jpg 1x, ./public/forest_768.jpg 2x"
+        />
+      </picture>
+    </div>
+
+    <!-- тег picture не завёлся -->
+  </body>
 </html>
